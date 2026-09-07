@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local data and generated files
+positive_6675/
+negative_9136/
+hard_negative/
+NOISE92X_16K/
+augmented_data/
+out/
+out2/
+train_list.txt
+val_list.txt
+test_list.txt
+*.wav
+*.pth
+*.pt
+*.ckpt
+temp_recording.wav
+batch_results.txt
+classification_report.txt
+confusion_matrix.png
+training_curves_lstm.png
+
+# IDE / OS
+.idea/
+.vscode/
+*.log
+Thumbs.db
